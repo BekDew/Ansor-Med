@@ -1,0 +1,131 @@
+.last-section{
+    padding: 64px 0;
+    background-color:$hero-lastsection-color;
+    &__wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    &__main-title{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 120%;
+        color: #FFFFFF;
+        margin: 0;
+        margin-bottom: 40px;
+    }
+    &__number-contact{
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 120%;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        padding: 12px 24px;
+        background-color:transparent;
+        border: 2px solid #fff;
+        border-radius: 8px;
+        margin-right: 44px;
+    &:hover{
+        color: #fff;
+        background: #DE2E54;
+        border: 2px solid #DE2E54;
+        border-radius: 8px;
+    }
+    &:active{
+        background: #DE2E54;
+        opacity: 0.6;
+        border: 2px solid #DE2E54;
+        border-radius: 8px;
+    }
+    }
+    &__telegram-btn{
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 120%;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        padding: 12px 24px;
+        background-color:transparent;
+        border: 2px solid #fff;
+        border-radius: 8px;
+        &:hover{
+            color: #fff;
+            background: #DE2E54;
+            border: 2px solid #DE2E54;
+            border-radius: 8px;
+        }
+        &:active{
+            background: #DE2E54;
+            opacity: 0.6;
+            border: 2px solid #DE2E54;
+            border-radius: 8px;
+        }
+    }
+}
+@media only screen and (max-width: 570px) {
+    .last-section{
+        padding: 25px;
+        &__wrapper{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        &__main-title{
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 120%;
+            color: #FFFFFF;
+            margin: 0;
+            margin-bottom: 20px;
+        }
+        &__btn-box{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        &__number-contact{
+            margin: 0;
+            margin-bottom: 20px;
+        }
+    }
+}
+@media only screen and (max-width: 400px) {
+   .last-section{
+    &__main-title{
+        font-weight: 700;
+        font-size: 19px;
+        line-height: 100%;
+        color: #FFFFFF;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    &__telegram-btn{
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 120%;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        padding: 10px 20px;
+        background-color:transparent;
+        border: 2px solid #fff;
+        border-radius: 8px;
+    }
+    &__number-contact{
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 120%;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        padding: 10px 20px;
+        background-color:transparent;
+        border: 2px solid #fff;
+        border-radius: 8px;
+    }
+   }
+}
